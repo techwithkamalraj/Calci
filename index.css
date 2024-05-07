@@ -1,0 +1,71 @@
+/* CSS for Mobile Calculator Design */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.calci {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+input[type="text"] {
+    width: 86%; /* Set the width to 80% of the container */
+    margin: 0 auto; /* Center horizontally */
+    padding: 30px 21px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+
+.calci div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.calci button {
+
+    flex: 1;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    outline: none;
+    background-color: grey;
+    color: #ffffff;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.calci button:hover {
+    background-color: grey;
+}
+
+.calci .btn:nth-child(4n) {
+    background-color: #f44336;
+}
+
+.calci .btn:nth-child(4n):hover {
+    background-color: #d32f2f;
+}
+
+.calci .btn:last-child {
+    background-color: orange;
+}
+
+.calci .btn:last-child:hover {
+    background-color: orange;
+}
